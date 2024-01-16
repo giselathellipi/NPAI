@@ -1,0 +1,228 @@
+.register-container {
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  min-height: 100vh;
+}
+
+.register-modal-holder {
+  max-width: 629px;
+  z-index: 1;
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.04);
+  border-radius: 30px;
+  padding: 20px 50px 19px;
+  justify-content: space-between;
+}
+
+.register-modal-holder h1 {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #16324f;
+}
+
+.inline-input {
+  display: flex;
+  width: 100%;
+}
+
+.input-content-holder {
+  flex: 1;
+}
+
+.phoneno-holder {
+  display: block;
+  margin-top: 16px;
+}
+
+.phoneno-holder .phoneNumber_input {
+  display: flex;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgb(209 209 214 / 50%);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin: 10px 0px 0px 2px;
+}
+
+.phoneno-holder input {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  max-width: 618px;
+  height: 53px;
+  background: #ffffff;
+  border-left: 2px solid #f7f7f7;
+  border-radius: none;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 15px;
+}
+
+.phoneno-holder span {
+  color: #fc0101;
+  font-weight: 600;
+  font-family: "Verdana";
+}
+
+.phoneno-holder label {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #16324f;
+  margin: 20px 0px 20px 0px;
+}
+
+.PhoneInputCountry {
+  padding: 8px;
+  min-width: 20px;
+  margin-right: 12px;
+  justify-content: center;
+  align-self: center;
+}
+
+.PhoneInputCountryIcon--border {
+  max-width: 21px;
+}
+
+.register-password-info {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 20px 0;
+  color: #cccccc;
+  width: 100%;
+}
+
+.register-text {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  color: #16324f;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.register-text a {
+  margin: 0 3px;
+  text-decoration: none;
+  color: #16324f;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+}
+
+.register-text .sign_in_p {
+  color: #312e81 50%;
+  font-weight: bold;
+}
+
+.div-register-camera {
+  position: absolute;
+  width: 30%;
+  left: 0%;
+  bottom: 0%;
+}
+
+.div-register-circle {
+  position: absolute;
+  width: 20%;
+  right: 0;
+  top: 0;
+}
+
+.img-register-camera {
+  width: 100%;
+  max-width: 78%;
+  height: auto;
+}
+
+.img-register-circle {
+  width: 100%;
+  height: auto;
+}
+
+.white-space-div {
+  width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .register-modal-holder h1 {
+    font-size: 25px;
+  }
+  .register-modal-holder {
+    max-width: 255px;
+    height: fit-content;
+    margin: 7px;
+    padding: 20px 25px 12px;
+  }
+  .div-register-camera {
+    display: none;
+  }
+  .register-modal-holder h1 {
+    margin: 9px;
+  }
+  .input_icon_container input {
+    height: 35px;
+  }
+  .input_icon_container select {
+    height: 35px;
+  }
+  .PhoneInput input {
+    height: 35px;
+  }
+  .inline-input {
+    display: block;
+    justify-content: center !important;
+  }
+  .input-content-holder {
+    display: block;
+  }
+  .register-content-holder h1 {
+    margin: 19px;
+  }
+  .div-register-circle {
+    display: none;
+  }
+  .div-register-camera {
+    position: static;
+    width: 100px;
+  }
+  .img-register-camera {
+    max-width: 100%;
+  }
+  .white-space-div {
+    display: none;
+  }
+  .register-user {
+    display: block;
+    height: fit-content;
+  }
+  .register-password-info {
+    font-size: 11px;
+    text-align: center;
+  }
+  .register-text a {
+    font-size: 12px;
+    margin: 0 3px;
+  }
+  .label_desc {
+    margin: 8px 0px 5px 0px;
+  }
+}

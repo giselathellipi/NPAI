@@ -1,0 +1,29 @@
+.user-header {
+  width: 100%;
+  background-color: #f7f9fc;
+  flex-direction: row;
+  height: 80px;
+}
+.header-items {
+  display: flex;
+  margin-left: 3%;
+  align-items: center;
+}
+.header-items h1 {
+  font-family: "Poppins";
+  font-size: 27px;
+}
+.header-table-index {
+  background-color: #ededfc;
+  border-radius: 80px;
+  margin-left: 1%;
+  margin-top: 5px;
+}
+.header-table-index span {
+  padding: 7px;
+}
+@media only screen and (max-width: 390px) {
+  .header-items h1 {
+    font-size: 23px;
+  }
+}

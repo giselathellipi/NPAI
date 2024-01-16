@@ -1,0 +1,164 @@
+.register-webcam-container {
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  min-height: 100vh;
+}
+
+.register-webcam-modal-holder {
+  max-width: 789px;
+  z-index: 1;
+  width: 100%;
+  margin: auto 5% auto 20%;
+  background: #ffffff;
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.04);
+  border-radius: 30px;
+  padding: 0 50px 35px;
+  justify-content: space-between;
+}
+
+.register-webcam-modal-holder h1 {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #16324f;
+}
+
+.register-webcam-inline-input {
+  display: flex;
+  width: 100%;
+}
+
+.webcam-input-content-holder {
+  flex: 1;
+}
+
+.register-webcam-text {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  color: #16324f;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.register-webcam-text a {
+  margin: 9px 3px;
+  text-decoration: none;
+  color: #16324f;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+}
+
+.register-webcam-text .sign_in_p_webcam {
+  color: #312e81 50%;
+  font-weight: bold;
+}
+
+.div-register-webcam-camera {
+  position: absolute;
+  width: 30%;
+  left: 0%;
+  bottom: 0%;
+}
+
+.div-register-webcam-circle {
+  position: absolute;
+  width: 20%;
+  right: 0;
+  top: 0;
+}
+
+.img-register-webcam-camera {
+  width: 100%;
+  max-width: 78%;
+  height: auto;
+}
+
+.img-register-webcam-circle {
+  width: 100%;
+  height: auto;
+}
+
+.white-space {
+  width: 50px;
+}
+
+.div-register-webcam-button {
+  margin-top: 30px;
+}
+
+.center-to-associate-holder {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  height: 53px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 15px;
+  color: #eaeaea;
+}
+
+@media only screen and (max-width: 768px) {
+  .register-webcam-modal-holder {
+    height: fit-content;
+    margin: 6px;
+    padding: 20px 25px 12px;
+  }
+  .div-register-webcam-camera{
+    display: none;
+  }
+  .register-webcam-modal-holder h1 {
+    margin: 19px;
+  }
+  .register-webcam-inline-input {
+    display: block;
+    justify-content: center !important;
+  }
+  .webcam-input-content-holder {
+    display: block;
+  }
+  .register-content-holder h1 {
+    margin: 19px;
+  }
+  .div-register-webcam-circle {
+    display: none;
+  }
+  .div-register-webcam-camera {
+    position: static;
+    width: 100px;
+  }
+  .img-register-webcam-camera {
+    max-width: 100%;
+  }
+  .white-space {
+    display: none;
+  }
+  .registerwebcam-user {
+    display: block;
+    height: fit-content;
+  }
+  .register-webcam-text a {
+    font-size: 12px;
+    margin: 0 3px;
+  }
+
+}
+@media only screen and (max-width: 400px) {
+  .register-webcam-container #sideBar-specifics{
+    height: initial;
+  }
+}

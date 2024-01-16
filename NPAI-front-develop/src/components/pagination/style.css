@@ -1,0 +1,16 @@
+.css-wjh20t-MuiPagination-ul {
+  justify-content: flex-end !important;
+  padding-right: 40px !important;
+}
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background: #16324f !important;
+  color: #ffffff !important;
+}
+
+@media only screen and (max-width: 393px) {
+  .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
+    min-width: 21px !important;
+    height: 24px !important;
+    padding: 0 !important;
+  }
+}

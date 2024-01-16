@@ -1,0 +1,128 @@
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.css-1ndpvdd-MuiTableCell-root {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  letter-spacing: -0.01em !important;
+  color: #b5b7c0 !important;
+}
+.userTable-searchbar {
+  max-width: 450px;
+  margin: 0 0 30px 0;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  letter-spacing: -0.01em !important;
+  color: #b5b7c0 !important;
+}
+.css-1ex1afd-MuiTableCell-root {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  letter-spacing: -0.01em !important;
+  color: #292d32 !important;
+}
+.css-1yhpg23-MuiTableCell-root {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  letter-spacing: -0.01em !important;
+  color: #292d32 !important;
+}
+#modal-type-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.edit-button {
+  cursor: pointer;
+  color: white;
+  background-color: #16324f;
+  border-radius: 4px;
+  width: 65px;
+  height: 29px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-right: 5%;
+}
+.delete-button {
+  cursor: pointer;
+  color: white;
+  background-color: #dc1b1b;
+  border-radius: 4px;
+  width: 65px;
+  height: 29px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/*MODAL*/
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  width: 25%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  min-width: 350px;
+}
+.modal-content h2 {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 8px;
+}
+.close-modal:hover {
+  background-color: #f44336;
+}
+.css-1xbcx6g-MuiTableCell-root {
+  font-family: "Poppins" !important;
+  font-size: 13px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    background: #f1f1f1;
+    padding: 10px 10px;
+  }
+}

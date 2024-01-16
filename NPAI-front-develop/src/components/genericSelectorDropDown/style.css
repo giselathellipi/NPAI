@@ -1,0 +1,68 @@
+.searchWrapper{
+  border: none !important;
+  height: 53px !important;
+  min-height: none !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 0px;
+}
+.searchWrapper .chip{
+  margin-bottom: 0px;
+  background-color:#16324F;
+}
+.optionContainer .notFound{
+  display: none;
+}
+.highlightOption{
+  background-color:#16324F !important;
+}
+.multiSelectContainer li:hover{
+  background-color:#16324F !important;
+}
+.optionContainer li:hover{
+  background-color:#16324F !important;
+}
+
+.optionListContainer{
+  width: 200px !important;
+  position:fixed !important;
+  top: 67%;
+}
+
+.multiSelectContainer ul{
+  position:absolute !important;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 1px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  
+}
+.multiSelectContainer {
+  text-align: center;
+  display: flex;
+}
+.multiSelectContainer input{
+  max-width: 140px;
+  
+}
+.multiSelectContainer input::placeholder{
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  cursor: pointer;
+  overflow: hidden !important;
+ }
+ @media only screen and (max-width: 768px) {
+  .optionListContainer{
+    width: 150px !important;
+    position:fixed !important;
+    display:block;
+    top: 75%;
+  }
+ }

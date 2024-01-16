@@ -1,0 +1,106 @@
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(50, 50, 50, 0.6);
+  z-index: 10;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: fixed;
+  background-color: rgba(50, 50, 50, 0.6);
+  color: #ffffff;
+  box-shadow: 0px 4px 20px rgba(25, 29, 58, 0.1);
+  border-radius: 10px;
+  max-width: 560px;
+}
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #2f3c43;
+  align-items: flex-start;
+  padding: 14px 16px;
+  border-radius: 10px 10px 0px 0px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.x-icon {
+  position: absolute;
+  right: 0;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.modal-body {
+  flex: 1;
+  padding: 9px 16px;
+  background-color: #ffffff;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  text-align: left;
+  flex-grow: 0;
+}
+.svg-warning {
+  text-align: center;
+  padding: 14px;
+}
+.body-title {
+  color: #222222;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+.body-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #222222;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.body-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #222222;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.modal-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #ffffff;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  padding: 9px 16px;
+}

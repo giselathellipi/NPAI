@@ -1,0 +1,29 @@
+.dropdown-tag {
+  font-weight: 700;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  width: 82%;
+  height: 53px;
+  background: #ffffff;
+  border-radius: none;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 15px;
+  /* color: #eaeaea; */
+}
+@media only screen and (max-width: 765px) {
+  .dropdown-tag {
+    width: 89%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .dropdown-tag {
+    width: 80%;
+  }
+}

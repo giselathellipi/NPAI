@@ -1,0 +1,23 @@
+/* .add-type {
+  position: absolute;
+} */
+/* .css-tswnso-MuiTableRow {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  display: flex;
+  outline: 0;
+} */
+.css-y51d4b-MuiTableCell-root {
+  font-family: "Space Grotesk", sans-serif !important;
+}
+.css-8msps9-MuiTableCell-root {
+  font-family: "Space Grotesk", sans-serif !important;
+}
+
+
+  @media only screen and (max-width: 650px) {
+    .css-1r00n5g-MuiTable-root{
+      min-width: 350px !important;
+    }
+    }

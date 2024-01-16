@@ -1,0 +1,190 @@
+.register-camera-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.registercamera-inline-input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.registercamera-inline-input .input-container {
+  margin-right: 10px;
+}
+.registercamera-content-holder {
+  overflow: hidden;
+  margin: auto 5% auto 20%;
+  max-width: 812px;
+  max-height: 668px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.04);
+  border-radius: 30px;
+  padding: 45px 45px 36px;
+}
+.registercamera-content-holder h1 {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #16324f;
+  margin: 25px;
+}
+.adress-input-container-registerCamera {
+  width: 100%;
+}
+.adress-input-container-registerCamera .input_icon_container {
+  max-width: 1000px;
+}
+.input-container {
+  width: 100%;
+}
+.phone-holder {
+  display: block;
+}
+.phone-holder .PhoneNumber_input {
+  display: flex;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgb(209 209 214 / 50%);
+  border-radius: 10px;
+  width: 100%;
+}
+.phone-holder input {
+  max-width: 200px;
+}
+.phone-holder input {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  max-width: 100%;
+  height: 53px;
+  background: #ffffff;
+  border-left: 2px solid #f7f7f7;
+  border-radius: none;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 15px;
+}
+.phone-holder span {
+  color: #fc0101;
+  font-weight: 600;
+  font-family: "Verdana";
+}
+.phone-holder label {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #16324f;
+}
+
+.PhoneInputCountry {
+  padding: 8px;
+  min-width: 20px;
+  margin-right: 12px;
+  justify-content: center;
+  align-self: center;
+}
+.PhoneInputCountryIcon--border {
+  max-width: 21px;
+}
+/* .register-input {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 381px;
+  height: 53px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(209, 209, 214, 0.5);
+  border-radius: 10px;
+} */
+/* .register-password-info {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 46px;
+  color: #cccccc;
+  width: 100%;
+} */
+.register-camera-text {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  color: #16324f;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+.register-camera-text a {
+  margin: 10px 3px;
+  text-decoration: none;
+  color: #16324f;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+}
+.register-camera-text .sign_in_paragraph {
+  color: #312e81 50%;
+  font-weight: bold;
+}
+.div-camera-registerCamera {
+  position: absolute;
+  max-width: 30%;
+  left: 0px;
+  bottom: 0px;
+}
+.div-circle-registerCamera .img-camera {
+  position: absolute;
+  max-width: 20%;
+  right: 0px;
+  top: 0px;
+  z-index: -2;
+}
+.div-register-camera-button {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .div-circle-registerCamera {
+    display: none;
+  }
+  .registercamera-content-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80vw;
+    min-height: 80vh;
+    padding: 35px 35px 18px;
+    margin: auto;
+  }
+  .registercamera-inline-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .registercamera-content-holder h1 {
+    margin: 0px;
+  }
+
+  .div-camera-registerCamera .img-camera {
+    position: absolute;
+    max-width: 20%;
+    left: 0%;
+    bottom: 0%;
+  }
+
+  .register-camera-container .label_desc {
+    margin: 5% 0 10px 0;
+  }
+
+}

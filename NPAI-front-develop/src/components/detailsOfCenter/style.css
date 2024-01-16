@@ -1,0 +1,111 @@
+.center-list {
+  margin: 2% auto;
+  width: 100%;
+  max-width: 526px;
+  background: #ffffff;
+  box-shadow: 3px 3px 15px 5px rgb(0 0 0 / 4%);
+  border-radius: 30px;
+  padding: 20px 5px 40px 5px;
+}
+.center-list h2 {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #16324f;
+}
+.center-list h2 span {
+  color: #fc0101;
+}
+.div-container {
+  display: flex;
+}
+.div1 {
+  flex: 1;
+  margin: 9px 0px 9px 25px;
+}
+.div1 span {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #16324f;
+}
+.div1 .span-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #b5b7c0;
+}
+
+.div2 {
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+.div2 .span-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #b5b7c0;
+}
+.div2 span {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292d32;
+  margin: 16px 0 10px 0;
+}
+
+@media only screen and (max-width: 967) {
+  .center-list {
+    padding: 10px 30px;
+  }
+  .center-list h2 {
+    font-size: 22px;
+  }
+
+  .div1 span {
+    font-size: 15px;
+  }
+  .div1 .span-label {
+    font-size: 16px;
+  }
+  .div2 .span-label {
+    font-size: 16px;
+  }
+  .div2 span {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .center-list h2 {
+    font-size: 23px;
+  }
+
+  .div1 span {
+    font-size: 15px;
+  }
+  .div1 .span-label {
+    font-size: 15px;
+  }
+  .div2 .span-label {
+    font-size: 15px;
+  }
+  .div2 span {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .center-list {
+    max-width: 300px;
+    padding: 1px 0 19px 0;
+  }
+}

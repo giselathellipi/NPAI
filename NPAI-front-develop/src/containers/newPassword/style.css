@@ -1,0 +1,146 @@
+/* .confirm-pass-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.confirm-pass-modal-holder {
+  margin: auto;
+  width: 40%;
+  max-width: 536px;
+  background: #ffffff;
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.04);
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.confirm-pass-modal-holder h1 {
+  text-align: center;
+  color: #16324f;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-size: 27px;
+}
+
+.confirm-pass-text {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  color: #16324f;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.confirm-pass-text a {
+  margin: 16px 18px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #16324f;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 13px;
+}
+
+.confirm-pass-text p {
+  color: #16324f;
+}
+
+.confirm-pass-input {
+  padding: 0 20px 0 20px;
+}
+.confirm-pass-button {
+  border: 1px;
+  background: #16324f;
+  box-shadow: -6px -4px 15px #ffffff, 4px 4px 15px #c4c4c4;
+  border-radius: 42px;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 100%;
+  max-width: 258px;
+  height: 55px;
+  margin: 0px 0 11px 0;
+}
+.confirm-pass-camera {
+  position: absolute;
+  width: 30%;
+  left: 0%;
+  bottom: 0%;
+}
+
+.confirm-pass-circle {
+  position: absolute;
+  width: 20%;
+  right: 0;
+  top: 0;
+}
+
+.confirm-pass-img-camera {
+  width: 100%;
+  max-width: 78%;
+  height: auto;
+}
+
+.confirm-pass-img-circle {
+  width: 100%;
+  height: auto;
+}
+.change-password-info {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 20px 0;
+  color: #cccccc;
+  width: 100%;
+}
+
+/* @media only screen and (max-width: 900px) {
+  .confirm-pass-modal-holder {
+    width: 350px;
+  }
+} */
+
+@media only screen and (max-width: 760px) {
+  .confirm-pass-modal-holder {
+    margin: 15px auto;
+    width: 280px;
+    height: fit-content;
+    padding: 8px 10px;
+  }
+  .confirm-pass-modal-holder h1 {
+    font-size: 23px;
+    padding: 5px 0 5px 0;
+  }
+
+  .confirm-pass-text {
+    display: block;
+  }
+  .confirm-pass-text a {
+    margin: 0;
+    line-height: 7px;
+    font-size: 12px;
+  }
+  .confirm-pass-button {
+    max-width: 190px;
+    height: 53px;
+    margin: 15px 0 8px 0;
+  }
+  .confirm-pass-circle {
+    display: none;
+  }
+  .confirm-pass-img-camera {
+    max-width: 100%;
+  }
+  .change-password-info p {
+    font-size: 11px;
+  }
+}

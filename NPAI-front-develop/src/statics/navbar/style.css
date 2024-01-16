@@ -1,0 +1,7 @@
+.navbar-container {
+  display: flex;
+  color: white;
+  background-color: brown;
+  height: 40px;
+  margin-bottom: 20px;
+}

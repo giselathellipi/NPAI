@@ -1,0 +1,75 @@
+.search_bar_container{
+  display: flex;
+  width: 100%;
+  height: 32px;
+}
+.filter-div{
+  display: flex;
+  border: 1px solid #c3c3c3;
+  border-radius: 8px 0px 0px 8px;
+  padding: 8px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  min-width:156px ;
+  background: transparent;
+}
+.filter{
+  width:100%;
+}
+
+#checkbox{
+font-size: 16px;
+font-weight:450;
+}
+.sortBy{
+  margin-left: 2px;
+  font-weight: 500;
+}
+.select-sort{
+  border:0px;
+  outline:0px;
+}
+.search-icon{
+  padding-left: 4%;
+  padding-top: -5px;
+  width: 18px;
+  height: 18px;
+}
+.search{
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d1d1;
+  border-radius: 0px 8px 8px 0px;
+  width: 80%;
+}
+.searchbar{
+  padding-left: 10px;
+  font-size: 16px;
+  display: flex;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+
+.searchbar::placeholder{
+  font-size: 17px;
+  color: rgb(200, 200, 200);
+}
+.input-checkbox::before{
+  display: none;
+}
+.list {
+  padding: 0!important;
+}
+.css-10hburv-MuiTypography-root{
+  font-size: 14px!important;
+  
+}
+@media only screen and (max-width: 600px) {
+  .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    min-height: auto!important;
+}
+}
